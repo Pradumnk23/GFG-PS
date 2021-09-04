@@ -22,6 +22,7 @@ void addNode(Node *head, int pos, int data)
         temp->prev=curr;
         curr->next=temp;
     }*/
+   
     Node *temp=new Node(data);
     Node *curr=head;
     int cnt=0;
