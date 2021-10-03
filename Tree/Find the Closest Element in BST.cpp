@@ -7,13 +7,9 @@ class Solution
             absMin = min(absMin, abs(K - root->data));
             
             if(root->data > K)
-            {
                 maxAbsDiff(root->left, K, absMin);
-            }
             else
-            {
                 maxAbsDiff(root->right, K, absMin);
-            }
         }
     }
     
